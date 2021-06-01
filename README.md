@@ -12,7 +12,7 @@
 * https://www.kaggle.com/ma7555/cat-breeds-dataset
   * 70,988 Images (67 Cat Breeds)
 * https://www.robots.ox.ac.uk/~vgg/data/pets/
-  * 7,393 Images (37 Cat Breeds)
+  * 2,403 Images (12 Cat Breeds)
 
 ## Data Argumentation
 * Blur (Filter Size = 3, 5)
