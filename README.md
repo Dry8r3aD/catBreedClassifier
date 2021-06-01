@@ -18,4 +18,4 @@
 * Blur (Filter Size = 3, 5)
 * Noise (Gaussian Noise, STD. Deviation = 5, 10 ,15, 20)
 * Translation (Coordinate Translation (0, 0) -> (N, N), N = 5, 10)
-* Rotation (Rotation by- 10, -5, 0, 5, 10 Degree)
+* Rotation (Rotation by- 10, -5, 5, 10 Degree)
