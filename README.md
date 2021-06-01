@@ -10,10 +10,12 @@
 
 ## Data Collecting
 * https://www.kaggle.com/ma7555/cat-breeds-dataset
+  * 70,988 Images (67 Cat Breeds)
 * https://www.robots.ox.ac.uk/~vgg/data/pets/
+  * 7,393 Images (37 Cat Breeds)
 
 ## Data Argumentation
 * Blur (Filter Size = 3, 5)
-* Noise (Gaussian Noise, STD. Deviation = 1, 3, 5, ..., 17, 19)
-* Translation (Coordinate Translation (0, 0) -> (N, N), N = 1, 2, 3, ..., 9, 10)
-* Rotation (Rotation by -5, -4, ..., 4, 5 Degree)
+* Noise (Gaussian Noise, STD. Deviation = 5, 10 ,15, 20)
+* Translation (Coordinate Translation (0, 0) -> (N, N), N = 5, 10)
+* Rotation (Rotation by- 10, -5, 0, 5, 10 Degree)
