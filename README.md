@@ -14,6 +14,27 @@
 * https://www.robots.ox.ac.uk/~vgg/data/pets/
  * 2,403 Images (12 Cat Breeds)
 
+### Excluded Cat Breeds
+* Due to small training images ( < 100 )
+ * York Chocolate
+ * Chinchilla
+ * Canadian Hairless
+ * Burmilla
+ * LaPerm
+ * Cymric
+ * American Wirehair
+ * Singapura
+ * Chausie
+ * Javanese
+ * Somali
+ * Oriental Long Hair
+ * Korat
+ * Selkirik Res
+ * Chartreux
+ * Silver
+* Due to difficulty of distinguishing (e.g. Mixed Breeds)
+ * Domestic Short / Medeium / Long Hair 
+
 ## Data Argumentation
 * 64 Cases (2 * 4 * 2 * 4)
  * Blur (Filter Size = 3, 5)
