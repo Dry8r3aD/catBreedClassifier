@@ -4,7 +4,7 @@
 
 # Project
 1. Data Collecting
-2. Data Argumentation
+2. Data Augmentation
 3. Model Architecting
 4. Integrating Model (Web Service)
 
@@ -85,7 +85,7 @@
 * Due to difficulty of distinguishing (e.g. Mixed Breeds)
   * Domestic Short / Medeium / Long Hair 
 
-## Data Argumentation
+## Data Augmentation
 * 64 Cases (2 * 4 * 2 * 4)
   * Blur (Filter Size = 3, 5)
   * Noise (Gaussian Noise, STD. Deviation = 5, 10 ,15, 20)
