@@ -1,0 +1,113 @@
+section {
+  padding: 30px 0;
+}
+.v-card {
+  min-height: 400px;
+  align-self: center;
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.vue-typer {
+  font-family: monospace;
+  font-size: 24px;
+}
+
+.header__title {
+  font-weight: 900;
+  color: #0a0f1d;
+  margin-top: 40px;
+  text-align: center;
+  font-size: 36px;
+}
+.header__subTitle {
+  font-weight: 900;
+  color: #0a0f1d;
+  margin: 8px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 24px;
+}
+.content__title {
+  font-weight: 900;
+  text-shadow: 3px 2px #ffbc0f;
+  color: #663201;
+  margin: 8px;
+  text-align: center;
+  font-size: 36px;
+}
+.content__subTitle {
+  font-weight: 900;
+  text-shadow: 2px 2px #ffbc0f;
+  color: #663201;
+  margin: 8px;
+  margin-bottom: 24px;
+  text-align: center;
+  font-size: px;
+}
+
+.content__cardBox {
+  padding-bottom: 100px;
+  padding-left: 40px;
+  padding-right: 40px;
+  .cardBox__chart {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    color: rgba(0, 0, 0, 0.6);
+
+    .chart__discription {
+      display: flex;
+      flex-direction: column;
+      margin: auto 0px;
+    }
+  }
+}
+
+#mainContent {
+  margin: 50px 0px;
+}
+.content__mainBox {
+  background: #ffffff;
+  border: 2px solid #999999;
+  border-radius: 15px;
+  min-height: 470px;
+  padding: 20px;
+  .mainBox__title {
+    font-family: "Nanum Pen Script";
+    font-weight: 900 !important;
+    color: black !important;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 36px !important;
+  }
+  .mainBox__previewImg {
+    min-height: 300px;
+    text-align: center;
+    padding: 10px;
+    &--noImg {
+      background: #eeeeee;
+      display: flex;
+      flex-direction: column;
+      color: rgba(0, 0, 0, 0.6);
+      .noImg__discription {
+        margin: auto;
+      }
+    }
+  }
+  .mainBox__action {
+    margin-top: 20px;
+    text-align: end;
+  }
+}
+
+.content__profileBox {
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  margin: 50px auto;
+  .profilBox__card {
+    margin: auto;
+  }
+}

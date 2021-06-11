@@ -1,0 +1,7 @@
+{
+  "endOfLine": "auto",
+  "printWidth": 120,
+  "trailingComma": "none",
+  "semi": true,
+  "arrowParens": "avoid" 
+}
