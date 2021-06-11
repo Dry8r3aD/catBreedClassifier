@@ -74,10 +74,10 @@
             <v-card-text class="text-center ma-auto">
               <div class="card__title">
                 <v-icon x-large class="pb-4">mdi-cat</v-icon>
-                <h1 class="headline text-xs-center pb-8">48종의 고양이 품종 학습</h1>
+                <h1 class="headline text-xs-center pb-8">48 Cat Breeds<br />Machine Learning</h1>
               </div>
               <div>약 7만장의 이미지 학습을 통한</div>
-              <div>러시안블루, 스코티쉬폴드, 샴, 렉돌, 먼치킨,</div>
+              <div>러시안블루, 샴, 렉돌, 먼치킨,</div>
               <div>뱅갈, 스핑크스, 페르시안, 아비시니안 등</div>
               <b>48종의 고양이 분류</b>
             </v-card-text>
@@ -94,11 +94,11 @@
             <v-card-text class="text-center ma-auto">
               <div class="card__title">
                 <v-icon x-large class="pb-4">mdi-brain</v-icon>
-                <h1 class="headline text-xs-center pb-8">지도학습 분류모델</h1>
+                <h1 class="headline text-xs-center pb-8">Supervised Learning<br />Classification</h1>
               </div>
-              <div><b>CNN 모델 설계</b> (이미지의 특징을 추출 특화)</div>
+              <div><b>CNN 모델 설계</b> (이미지 특징을 추출 특화)</div>
               <div>수집한 품종별 고양이 이미지를 학습한</div>
-              <b>Supervised Learning 기반 Classification 모델</b>
+              <b>지도 학습 기반 분류 모델</b>
             </v-card-text>
           </v-card>
         </v-col>
@@ -113,10 +113,11 @@
             <v-card-text class="text-center ma-auto">
               <div class="card__title">
                 <v-icon x-large class="pb-4">mdi-trending-up</v-icon>
-                <h1 class="headline text-xs-center pb-8">Performance Improvement</h1>
+                <h1 class="headline text-xs-center pb-8">Model Architecting</h1>
               </div>
-              <div>학습 데이터(이미지)의 해상도 증가,</div>
-              <div>Optimizer 변경과 같은 <b>지속적인 성능 향상</b></div>
+              <div>옥스포드대학 <b>VGG 모델</b> 참고</div>
+              <div><b>Convolution Layer</b>와<br /><b>Pooling Layer</b>를 사용해 특징추출</div>
+              <div><b>Dropout Layer</b>를 삽입하여 <b>성능 향상</b></div>
             </v-card-text>
           </v-card>
         </v-col>
@@ -133,9 +134,15 @@
                 <v-img class="mainBox__previewImg" contain max-height="360" src="@/assets/img/chart_img.png"></v-img>
               </span>
               <span class="chart__discription">
-                <div class="text-h5 mb-5">타이트으으으을</div>
-                <div class="text-body-1">오차 줄이고 있고 어찌고 저찌고</div>
-                <div class="text-body-1">오차 줄이고 있고 어찌고 저찌고</div>
+                <div class="text-h5 mb-5">Performance Improvement</div>
+                <div class="text-body-1 mt-4">학습 데이터(이미지)의 해상도 증가, Optimizer 변경,</div>
+                <div class="text-body-1">
+                  학습 시 Augmentation 이미지 사용,<br />
+                  Epoch를 반복 시 이미지 중복을 막기위해 Keras의 ImageGenerator 사용.
+                </div>
+                <div class="text-body-1 mt-5">
+                  <b>지속적인 성능향상 진행</b>
+                </div>
               </span>
             </v-card-text>
           </v-card>
